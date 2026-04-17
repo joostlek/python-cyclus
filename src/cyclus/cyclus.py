@@ -99,7 +99,7 @@ class CyclusClient:
             "diftar/afvalregistraties", {"bag_id": self.bag_id, "code": login_code}
         )
 
-        if result == "false":
+        if result.startswith("false"):
             # The API returns false when no registrations have been made yet.
             return []
 
