@@ -5,30 +5,30 @@ change-template: "- $TITLE @$AUTHOR (#$NUMBER)"
 sort-direction: ascending
 
 categories:
-    - title: "🚨 Breaking changes"
-      labels:
-          - "breaking-change"
-    - title: "✨ New features"
-      labels:
-          - "new-feature"
-    - title: "🐛 Bug fixes"
-      labels:
-          - "bugfix"
-    - title: "🚀 Enhancements"
-      labels:
-          - "enhancement"
-          - "refactor"
-          - "performance"
-    - title: "🧰 Maintenance"
-      labels:
-          - "maintenance"
-          - "ci"
-    - title: "📚 Documentation"
-      labels:
-          - "documentation"
-    - title: "⬆️ Dependency updates"
-      labels:
-          - "dependencies"
+    -   title: "🚨 Breaking changes"
+        labels:
+            - "breaking-change"
+    -   title: "✨ New features"
+        labels:
+            - "new-feature"
+    -   title: "🐛 Bug fixes"
+        labels:
+            - "bugfix"
+    -   title: "🚀 Enhancements"
+        labels:
+            - "enhancement"
+            - "refactor"
+            - "performance"
+    -   title: "🧰 Maintenance"
+        labels:
+            - "maintenance"
+            - "ci"
+    -   title: "📚 Documentation"
+        labels:
+            - "documentation"
+    -   title: "⬆️ Dependency updates"
+        labels:
+            - "dependencies"
 
 version-resolver:
     major:
