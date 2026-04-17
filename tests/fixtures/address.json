@@ -1,0 +1,16 @@
+[
+    {
+        "bagid": "9999999999999999",
+        "postcode": "1234AB",
+        "huisnummer": 1,
+        "huisletter": "",
+        "toevoeging": "",
+        "description": "Teststraat 1, 1234AB Teststad",
+        "straat": "Teststraat",
+        "woonplaats": "Teststad",
+        "woonplaatsId": 9999,
+        "gemeenteId": 9999,
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+]

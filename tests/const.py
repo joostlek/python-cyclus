@@ -1,0 +1,7 @@
+"""Test constants."""
+
+ZIPCODE = "1234AB"
+HOUSE_NUMBER = 1
+LOGIN_CODE = "TESTLOGINCODE1"
+BAG_ID = "9999999999999999"
+XSRF_TOKEN = "test-xsrf-token"

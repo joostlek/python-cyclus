@@ -1,0 +1,43 @@
+# serializer version: 1
+# name: test_get_calendar_events
+  list([
+    dict({
+      'pickup_date': datetime.date(2025, 1, 6),
+      'waste_type': <WasteType.GFT: 1>,
+    }),
+    dict({
+      'pickup_date': datetime.date(2025, 1, 6),
+      'waste_type': <WasteType.RESIDUAL_WASTE: 2>,
+    }),
+    dict({
+      'pickup_date': datetime.date(2025, 1, 8),
+      'waste_type': <WasteType.PAPER: 3>,
+    }),
+    dict({
+      'pickup_date': datetime.date(2025, 1, 20),
+      'waste_type': <WasteType.PMD: 14>,
+    }),
+    dict({
+      'pickup_date': datetime.date(2025, 2, 3),
+      'waste_type': <WasteType.GFT: 1>,
+    }),
+    dict({
+      'pickup_date': datetime.date(2025, 1, 13),
+      'waste_type': <WasteType.CHRISTMAS_TREES: 758>,
+    }),
+  ])
+# ---
+# name: test_get_waste_registrations
+  list([
+    dict({
+      'chip': 'AABBCC',
+      'container': '140',
+      'timestamp': datetime.datetime(2026, 3, 26, 8, 24, 36),
+    }),
+    dict({
+      'chip': 'AABBCC',
+      'container': '140',
+      'timestamp': datetime.datetime(2026, 2, 26, 8, 4),
+    }),
+  ])
+# ---
